@@ -136,6 +136,36 @@ padding: 40px 0;
 
 footer{
   background-color: #031c4e;
-  height: 400px;
-  border: 1px solid red;
+  color: #5a6887;
+}
+
+.list-footer{
+  list-style: none;
+}
+
+.social i{
+  font-size: 20px;
+  padding-right: 10px;
+}
+
+.tooltip {
+  color: #000;
+  position: relative;
+  width: 300px;
+  padding: 10px;
+  background: #fff;
+  line-height: 1.45;
+  border-radius: 5px;
+}
+
+.tooltip::before {
+  content: '';
+  position: absolute;
+  bottom: 15px;
+  right: -5px;
+  width: 10px;
+  height: 10px;
+  background: #fff;
+  /* Rotazione */
+  transform: rotate(45deg);
 }
