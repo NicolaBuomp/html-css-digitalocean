@@ -95,10 +95,28 @@ padding: 40px 0;
 /* Service */
 #service{
   background-color: #002eaa;
-  border: 1px solid red;
   color: #fff;
 }
 
 #service h2{
   padding: 30px 0 20px;
+}
+
+/* rockerbox */
+#rockerbox{
+  background-color: #fafafa;
+}
+
+#rockerbox h2{
+  padding-bottom: 50px;
+}
+
+.my-rockerbox{
+  padding: 40px 0;
+  background-color: #fff;
+}
+
+
+.my-rockerbox h4{
+  padding-top: 15px ;
 }
