@@ -77,5 +77,17 @@
 /* designed */
 
 #designed{
+  background-color: #fafafa;
+}
+
+#designed .droplet-img{
+  margin: 35px 0 15px;
+  height: 300px;
+  max-width: 100%;
+}
+
+/* the_features */
+
+#the_features{
   border: 1px solid red;
 }
