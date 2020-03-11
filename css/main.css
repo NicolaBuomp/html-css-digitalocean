@@ -45,10 +45,23 @@
 /* LOGHI */
 
 #loghi{
+  padding: 20px 0;
   background-color: #fafafa;
-  border: 1px solid red;
 }
 
 #loghi img{
   height: 50px;
+}
+
+/* deploy */
+
+#deploy{
+  border: 1px solid red;
+  height: 300px;
+}
+
+.deploy-list a{
+  text-decoration: none;
+  color:#5c6a88;
+  padding: 10px 0;
 }
