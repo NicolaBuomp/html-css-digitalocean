@@ -1,0 +1,54 @@
+/* navbar */
+
+#my-nav{
+  padding:10px;
+}
+
+#my-nav img {
+  height: 25px;
+  vertical-align: middle;
+}
+
+#my-nav .a-nav-style a{
+  display: inline-block;
+  padding:6px 12px 0;
+}
+
+/* jumbotron */
+#my-jumbotron{
+  background-image: url('../assets/bg-banner-home.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+#my-jumbotron .my-txt-form{
+  padding: 50px 0;
+}
+
+/* form */
+#my-jumbotron .my-form{
+  border-radius: 3px;
+  background-color: #fff;
+  color: #000;
+}
+
+#my-jumbotron .my-form button{
+  margin-bottom: 10px;
+}
+
+#my-jumbotron .my-form button img{
+  float: left;
+  height: 20px;
+}
+
+/* LOGHI */
+
+#loghi{
+  background-color: #fafafa;
+  border: 1px solid red;
+}
+
+#loghi img{
+  height: 50px;
+}
