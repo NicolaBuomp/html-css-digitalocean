@@ -89,5 +89,16 @@
 /* the_features */
 
 #the_features{
+padding: 40px 0;
+}
+
+/* Service */
+#service{
+  background-color: #002eaa;
   border: 1px solid red;
+  color: #fff;
+}
+
+#service h2{
+  padding: 30px 0 20px;
 }
