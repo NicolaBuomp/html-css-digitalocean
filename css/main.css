@@ -116,7 +116,26 @@ padding: 40px 0;
   background-color: #fff;
 }
 
-
 .my-rockerbox h4{
   padding-top: 15px ;
+}
+
+/* get btn */
+
+#get_btn{
+  padding: 20px 0;
+  background-color: #002eaa;
+  color: #fff;
+}
+
+#get_btn h2{
+  padding: 15px 0;
+}
+
+/* footer */
+
+footer{
+  background-color: #031c4e;
+  height: 400px;
+  border: 1px solid red;
 }
