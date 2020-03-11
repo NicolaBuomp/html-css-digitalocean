@@ -56,12 +56,26 @@
 /* deploy */
 
 #deploy{
-  border: 1px solid red;
-  height: 300px;
+  padding-top: 20px;
+}
+
+.text-title-deploy{
+  text-align: center;
+  padding: 20px 0;
 }
 
 .deploy-list a{
   text-decoration: none;
   color:#5c6a88;
-  padding: 10px 0;
+}
+
+.deploy-list li{
+  padding-top: 15px;
+  font-size: 18px;
+}
+
+/* designed */
+
+#designed{
+  border: 1px solid red;
 }
