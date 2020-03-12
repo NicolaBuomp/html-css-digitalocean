@@ -8,6 +8,8 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <!-- link CDN -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+  <!-- link Font Family -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap" rel="stylesheet">
   <!-- Main stylesheet -->
   <link rel="stylesheet" href="css/main.css">
   <title>Digital Ocean</title>
@@ -16,47 +18,47 @@
 
   <header>
     <!-- navbar -->
-    <section id="my-nav" class="">
+    <section id="my-nav">
 
       <div class="container">
         <div class="row">
-          <div class="col-xs-6 col-sm-6 col-md-4">
+          <div class="col-xs-10 col-sm-10 col-md-3 my-nav-class">
             <a href="#">
               <img src="assets/do-logo.png" alt="Logo Home">
             </a>
           </div>
-          <div class="col-xs-6 col-sm-6 col-md-4">
-            <ul class="list-inline a-nav-style">
-              <a href="#">
-                <li>Products</li>
-              </a>
-              <a href="#">
-                <li>Customers</li>
-              </a>
-              <a href="#">
-                <li>Community</li>
-              </a>
-              <a href="#">
-                <li>Pricing</li>
-              </a>
+          <div class="col-xs-6 col-sm-6 col-md-4 my-nav-class">
+            <ul class="list-inline">
+              <li>
+                <a href="#">Product <i class="fas fa-angle-down"></i></a>
+              </li>
+              <li>
+                <a href="#">Customers</a>
+              </li>
+              <li>
+                <a href="#">Community <i class="fas fa-angle-down"></i></a>
+              </li>
+              <li>
+                <a href="#">Pricing</a>
+              </li>
             </ul>
           </div>
-          <div class="col-xs-6 col-sm-6 col-md-4">
-            <ul class="list-inline a-nav-style text-right">
-              <a href="#">
-                <li>Docs</li>
-              </a>
-              <a href="#">
-                <li>Support</li>
-              </a>
-              <a href="#">
-                <li>Login</li>
-              </a>
-              <a href="#">
-                <li>Sign Up</li>
-              </a>
-            </ul>
-          </div>
+          <div class="col-xs-6 col-sm-6 col-md-offset-2 col-md-3 ">
+           <ul class="list-inline">
+             <li>
+               <a href="#">Docs</a>
+             </li>
+             <li>
+               <a href="#">Support <i class="fas fa-angle-down"></i></a>
+             </li>
+             <li>
+               <a href="#">Login</a>
+             </li>
+             <li>
+                <button type="button" class="btn btn-light">Sign Up</button>
+             </li>
+
+           </ul>
         </div>
       </div>
 
@@ -65,12 +67,12 @@
     <section id="my-jumbotron">
       <div class="container">
         <div class="row">
-          <div class="col-xs-offset-1 col-xs-10 col-sm-12 col-md-12 my-txt-form">
-            <div class="col-md-7">
+          <div class="col-xs-12 col-sm-12 col-md-12 my-txt-form">
+            <div class="col-sm-6 col-md-7">
               <h1>The simplest cloud platform for developers & teams</h1>
               <p>Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and businesses, whether you're running one virtual machine or ten thousand.</p>
             </div>
-            <div class="col-md-5 my-form text-center">
+            <div class="col-xs-12 col-sm-6 col-md-5 my-form text-center">
               <h2>Deploy your app in second.</h2>
               <h2>Get started now.</h2>
               <form>
@@ -82,7 +84,7 @@
                 </div>
                 <button type="submit" class="btn btn-primary btn-lg btn-block">Create your account</button>
                 <button type="submit" class="btn btn-light btn-lg btn-block "><img src="assets/google-icon.png" alt="Icona Google">Sign up with google</button>
-                <p>By signing up you agree to the <a href="#">Terms of Service.</a></p>
+                <span>By signing up you agree to the <a href="#">Terms of Service.</a></span>
               </form>
             </div>
           </div>
@@ -118,7 +120,7 @@
             <div class="col-xs-6 col-md-2">
               <img src="assets/splunk.png" alt="">
             </div>
-            <a href="#">View custoper stories</a>
+            <a href="#">View customer stories ></i></a>
           </div>
         </div>
       </div>
@@ -134,7 +136,7 @@
               <h1>Deploy and scale seamlessly</h1>
               <p>Our optimized configuration process saves your team time when running and scaling distributed applications, AI & machine learning workloads, hosted services, client websites, or CI/CD environments.</p>
             </div>
-            <div class="col-md-2 col-md-offset-1 deploy-list">
+            <div class="col-md-2 deploy-list">
               <ul class="list-inline">
                 <a href="#">
                   <li>Deploy</li>
@@ -153,7 +155,7 @@
                 </a>
               </ul>
             </div>
-            <div class="col-md-8">
+            <div class="col-md-offset-1 col-md-8">
               <div class="col-md-6">
                 <img src="assets/cluster-deploy.svg" alt="">
                 <h4>Cluster deployments</h4>
@@ -246,7 +248,7 @@
                     <td>Amsterdam, Netherlands</td>
                     <td></td>
                     <td><a href="#">
-                      Test speed
+                      Test speed >
                     </a></td>
                   </tr>
                   <tr>
@@ -254,7 +256,7 @@
                     <td>Amsterdam, Netherlands</td>
                     <td></td>
                     <td><a href="#">
-                      Test speed
+                      Test speed >
                     </a></td>
                   </tr>
                   <tr>
@@ -262,7 +264,7 @@
                     <td>Bangalore, India</td>
                     <td></td>
                     <td><a href="#">
-                      Test speed
+                      Test speed >
                     </a></td>
                   </tr>
                   <tr>
@@ -270,7 +272,7 @@
                     <td>Frankfurt, Germany</td>
                     <td></td>
                     <td><a href="#">
-                      Test speed
+                      Test speed >
                     </a></td>
                   </tr>
                   <tr>
@@ -278,7 +280,7 @@
                     <td>London, UK</td>
                     <td></td>
                     <td><a href="#">
-                      Test speed
+                      Test speed >
                     </a></td>
                   </tr>
                   <tr>
@@ -286,7 +288,7 @@
                     <td>New York, USA</td>
                     <td></td>
                     <td><a href="#">
-                      Test speed
+                      Test speed >
                     </a></td>
                   </tr>
                 </tbody>
@@ -299,48 +301,54 @@
                     <th scope="row">NYC2</th>
                     <td>New York, USA</td>
                     <td></td>
+                    <td></td>
                     <td><a href="#">
-                      Test speed
+                      Test speed >
                     </a></td>
                   </tr>
                   <tr>
                     <th scope="row">NYC3</th>
                     <td>New York, USA</td>
                     <td></td>
+                    <td></td>
                     <td><a href="#">
-                      Test speed
+                      Test speed >
                     </a></td>
                   </tr>
                   <tr>
                     <th scope="row">SFO1</th>
                     <td>San Francisco, USA</td>
                     <td></td>
+                    <td></td>
                     <td><a href="#">
-                      Test speed
+                      Test speed >
                     </a></td>
                   </tr>
                   <tr>
                     <th scope="row">SFO2</th>
                     <td>San Francisco, USA</td>
                     <td></td>
+                    <td></td>
                     <td><a href="#">
-                      Test speed
+                      Test speed >
                     </a></td>
                   </tr>
                   <tr>
                     <th scope="row">SGP1</th>
                     <td>Singapore</td>
                     <td></td>
+                    <td></td>
                     <td><a href="#">
-                      Test speed
+                      Test speed >
                     </a></td>
                   </tr>
                   <tr>
                     <th scope="row">TOR1</th>
                     <td>Toronto, Canada</td>
                     <td></td>
+                    <td></td>
                     <td><a href="#">
-                      Test speed
+                      Test speed >
                     </a></td>
                   </tr>
                 </tbody>

@@ -1,20 +1,23 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
 /* navbar */
 
 #my-nav{
-  padding:10px;
+  padding-top: 5px;
 }
 
 #my-nav img {
   height: 25px;
-  vertical-align: middle;
 }
 
-#my-nav .a-nav-style a{
-  display: inline-block;
-  padding:6px 12px 0;
+.my-nav-class{
+  margin-top: 6px;
 }
 
 /* jumbotron */
+
 #my-jumbotron{
   background-image: url('../assets/bg-banner-home.jpg');
   background-repeat: no-repeat;
@@ -27,10 +30,29 @@
 }
 
 /* form */
+
 #my-jumbotron .my-form{
   border-radius: 3px;
   background-color: #fff;
   color: #000;
+  max-width: 100%;
+}
+
+#my-jumbotron .my-form h2:nth-last-child(2){
+  color: blue;
+}
+
+#my-jumbotron h1{
+  font-size: 63px;
+}
+
+#my-jumbotron p {
+  font-size: 22px;
+  color: #bbcdff;
+}
+
+#my-jumbotron span {
+  margin-bottom: 20px;
 }
 
 #my-jumbotron .my-form button{
@@ -51,6 +73,15 @@
 
 #loghi img{
   height: 50px;
+  margin-bottom: 25px;
+}
+
+#loghi h5{
+  padding: 25px 0;
+}
+
+#loghi a{
+  color: blue;
 }
 
 /* deploy */
@@ -60,8 +91,13 @@
 }
 
 .text-title-deploy{
+  color: #031c4e;
   text-align: center;
   padding: 20px 0;
+}
+
+.text-title-deploy p{
+  font-size: 20px;
 }
 
 .deploy-list a{
@@ -74,6 +110,9 @@
   font-size: 18px;
 }
 
+#deploy .col-md-6 p{
+  margin-bottom: 40px;
+}
 /* designed */
 
 #designed{
@@ -86,25 +125,37 @@
   max-width: 100%;
 }
 
-/* the_features */
-
-#the_features{
-padding: 40px 0;
+#designed h2{
+  margin: 30px 0 20px;
 }
 
+/* the_features */
+
+#the_features h2{
+padding: 40px 0 20px;
+}
+
+
+#the_features {
+  padding-bottom: 50px;
+}
 /* Service */
+
 #service{
   background-color: #002eaa;
   color: #fff;
+  padding: 30px 0;
 }
 
 #service h2{
-  padding: 30px 0 20px;
+  padding-bottom:20px;
 }
 
 /* rockerbox */
+
 #rockerbox{
   background-color: #fafafa;
+  padding: 50px 0;
 }
 
 #rockerbox h2{
@@ -123,24 +174,34 @@ padding: 40px 0;
 /* get btn */
 
 #get_btn{
-  padding: 20px 0;
+  padding: 40px 0;
   background-color: #002eaa;
   color: #fff;
 }
 
 #get_btn h2{
-  padding: 15px 0;
+  padding-bottom: 15px;
 }
 
 /* footer */
 
 footer{
+  padding: 30px 0;
   background-color: #031c4e;
   color: #5a6887;
 }
 
 .list-footer{
   list-style: none;
+}
+
+.list-footer li h4{
+  color: #fff;
+}
+
+.list-footer li a{
+  color: #5a6887;
+  padding: 10px 0;
 }
 
 .social i{
