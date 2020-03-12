@@ -8,6 +8,20 @@ body{
   padding-top: 5px;
 }
 
+.my-nav-hamb{
+  padding: 10px;
+}
+
+#my-nav li a{
+  color: #5a6887;
+}
+
+#my-nav .btn{
+  background-color: #fff;
+  border-color: blue;
+  color: blue;
+}
+
 #my-nav img {
   height: 25px;
 }
@@ -43,7 +57,7 @@ body{
 }
 
 #my-jumbotron h1{
-  font-size: 63px;
+  font-size: 60px;
 }
 
 #my-jumbotron p {
