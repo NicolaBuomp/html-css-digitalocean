@@ -2,6 +2,19 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 
+.circle{
+  margin-right: 4px;
+  border: 1px solid #006aff;
+  border-radius: 50%;
+  padding: 1px 5px;
+  line-height: 0;
+  font-size: 6px;
+}
+
+.circle:hover{
+  background-color: #006aff;
+}
+
 /* navbar */
 
 #my-nav{
@@ -9,7 +22,7 @@ body{
 }
 
 .my-nav-hamb{
-  padding: 10px;
+  padding: 10px 0;
 }
 
 #my-nav li a{
@@ -131,6 +144,7 @@ body{
 
 #designed{
   background-color: #fafafa;
+  text-align: center;
 }
 
 #designed .droplet-img{
@@ -170,6 +184,7 @@ padding: 40px 0 20px;
 #rockerbox{
   background-color: #fafafa;
   padding: 50px 0;
+  text-align: center;
 }
 
 #rockerbox h2{
@@ -200,7 +215,7 @@ padding: 40px 0 20px;
 /* footer */
 
 footer{
-  padding: 30px 0;
+  padding: 50px 0;
   background-color: #031c4e;
   color: #5a6887;
 }
@@ -223,17 +238,57 @@ footer{
   padding-right: 10px;
 }
 
-.tooltip {
-  color: #000;
-  position: relative;
-  width: 300px;
-  padding: 10px;
-  background: #fff;
-  line-height: 1.45;
-  border-radius: 5px;
+/* hel_btn */
+
+#help_button{
+  background: transparent;
+  position: fixed;
+  left: 65%;
+  bottom: 10px;
 }
 
-.tooltip::before {
+.help_logo{
+  display: inline-block;
+  width: 55px;
+  height: 55px;
+  background: #0069ff;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  position: relative;
+  vertical-align: middle;
+}
+
+.help_logo img{
+  width: 100%;
+  padding-top: 5px;
+}
+
+.help_logo h4{
+  display: inline-block;
+  width: 27px;
+  text-align: center;
+  border: 3px solid white;
+  border-radius: 50%;
+  padding: 2px 0 0 0;
+  background: red;
+  color: white;
+  position: absolute;
+  bottom: 30px;
+  left: 75%;
+}
+
+.help_message{
+  vertical-align: sub;
+  display: inline-block;
+  width: 320px;
+  padding: 5px;
+  margin-right: 10px;
+  background: white;
+  border-radius: 5px;
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.4));
+}
+
+.help_message::before{
   content: '';
   position: absolute;
   bottom: 15px;
@@ -243,4 +298,31 @@ footer{
   background: #fff;
   /* Rotazione */
   transform: rotate(45deg);
+}
+
+
+@media all and (max-width: 1199px){
+
+  #help_button{
+    left: 5%;
+    bottom: 5px;
+  }
+
+  .help_logo{
+    position: absolute;
+    left: 0;
+    bottom: 68px;
+  }
+
+  .help_message::before{
+    content: '';
+    position: absolute;
+    bottom: 55px;
+    left: 25px;
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    /* Rotazione */
+    transform: rotate(45deg);
+  }
 }
